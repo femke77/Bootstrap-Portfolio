@@ -1,0 +1,84 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-image: url(../images/white-waves.png);
+}
+
+.nav-style {
+    padding: 0px 20px 0px 0px;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 2px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    color: #4aaaa5;
+}
+
+#name {
+    color: white;
+    background-color: #4aaaa5;
+    height: 80px;
+    width: 200px;
+    padding: 20px;
+    text-align: center; 
+   
+    
+}
+
+.links {
+    padding-left: 15px;
+    margin-right: 5%;
+}
+
+.c {
+    margin-bottom: 75px;
+}
+
+.row-style-top, .row-style-main {
+    border-right:#ccc solid 1px;
+    border-left: #ccc solid 1px;
+    background-color: white;
+}
+
+.row-style-top {
+    border-top: #ccc solid 1px;
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+
+.row-style-main {  
+    border-bottom: #cccccc solid 1px;
+    min-height: 400px;
+    padding: 0px 20px;
+    
+
+}
+
+footer{   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;    
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top:  #4aaaa5 solid 8px;
+}
+
+footer p {
+    padding: 20px;
+    font-size: 10px;
+}
+
