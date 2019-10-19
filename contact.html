@@ -8,46 +8,40 @@
     <title>Meg Meyers</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-    <header>
-        <section id="name">
+    <nav class="navbar navbar-expand-lg navbar-light nav-style">
+        <span class="navbar-text" id="name">
             <h1>Meg Meyers</h1>
-        </section>
-        <section id="nav">
-            <p>
-                <a href="index.html"> About</a> &nbsp; | &nbsp;
-                <a href="portfolio.html"> Portfolio</a> &nbsp; | &nbsp;
-                <a href="contact.html"> Contact</a>
-            </p>
-        </section>
-    </header>
-    <div class="main">
-        <div class="content">
-                <h2>Contact</h2>
-                <hr />
-                <form>
-    
-                    <p>Name</p>
-                    <p><input type="text"></p>
-    
-                    <p>Email</p>
-                    <p><input type="email"></p>
-    
-                    <p>Message</p>
-                    <p id="message"><input type="text"></p>
-    
-                    <p><input type="submit"></p>
-                </form>
-        </div>
+        </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto links text-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
 
-    </div>
+            </ul>
+        </div>
+    </nav>
+
+
 
     <footer>
-        <p id="copy-text">
+        <p>
             Copyright &copy 2019
         </p>
     </footer>
