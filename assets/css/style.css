@@ -13,14 +13,15 @@ body{
     border-bottom: #cccccc solid 2px;
 }
 
-h1 {
+h1, h2 {
     font-weight: bold;
+}
+h1 {
     font-size: 24px;
     
 }
 
 h2 {
-    font-weight: bold;
     font-size: 23px;
     color: #4aaaa5;
 }
@@ -35,9 +36,7 @@ hr {
     height: 80px;
     width: 200px;
     padding: 20px;
-    text-align: center; 
-   
-    
+    text-align: center;  
 }
 
 .links {
@@ -70,7 +69,8 @@ hr {
 
 }
 
-footer{   
+/* TODO sticky footer from BS not working, try to fix */
+footer {   
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -86,3 +86,13 @@ footer p {
     font-size: 10px;
 }
 
+.pad {
+    padding-bottom: 15px;
+}
+
+.input-style[type=submit] {
+    background-color:#4aaaa5;
+    border: none;
+    color: #ffffff;
+    
+}
